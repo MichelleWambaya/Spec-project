@@ -1,0 +1,67 @@
+body{
+
+  background-size: 700px 400px;
+    background: linear-gradient(to top, rgba(90, 190, 24, 0.87), rgba(209, 209, 91, 0.781), rgba(110, 17, 17, 0.959));
+    
+    color: azure;
+    font-size: larger;
+}
+.navigation{
+  background: linear-gradient(to left, rgba(15, 221, 15, 0.712), rgba(204, 123, 31, 0.555));
+
+  border-bottom: 1px solid #a1324a;
+  box-shadow: 0 2px 4px rgba(101, 207, 59, 0.4);
+
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  font-family: fantasy;
+  font-style: italic;
+  margin-bottom: 30px;
+ text-decoration: none;
+  padding: 10px 30px;
+        }
+.signup{
+        background-color: rgb(18, 247, 37);
+  border-bottom: 1px solid #014e07;
+  box-shadow: 0 2px 4px rgba(165, 250, 68, 0.4);
+  background-color: rgb(218, 9, 9);
+  display: flex;
+    }
+
+    .images{
+      display: flex;
+  margin: 32px 0;
+  width: 350px;
+  height: 400px;
+  position: relative;
+    }
+
+    .submit-btn .input-data{
+      overflow: hidden;
+      height: 45px!important;
+      width: 25%!important;
+    }
+    .submit-btn .input-data .inner{
+      height: 100%;
+      width: 300%;
+      position: absolute;
+      left: -100%;
+      background: -webkit-linear-gradient(right, #183235, #48a313, #966844, #884302);
+      transition: all 0.4s;
+    }
+    .submit-btn .input-data:hover .inner{
+      left: 0;
+    }
+    .submit-btn .input-data input{
+      background: none;
+      border: none;
+      color: #720c0c;
+      font-size: 17px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      cursor: pointer;
+      position: relative;
+      z-index: 2;
+    }
